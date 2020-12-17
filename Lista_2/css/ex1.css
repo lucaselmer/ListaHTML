@@ -1,0 +1,14 @@
+body{
+    text-align:center;
+}
+.container{
+    display: inline-block;
+    position: relative;
+}
+.welcome{
+    display: block;
+}
+div{
+    display: inline;
+    text-align: center;
+}
