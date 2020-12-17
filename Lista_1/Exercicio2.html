@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>Exercício 2</title>
+</head>
+
+<body>
+    <h4>Cadastro de novos materiais de aula</h4>
+    <form>
+        <fieldset>
+            <legend>Lista de materiais já cadastrados</legend>
+            <ol id="listaordenada">
+                <li>Lápis</li>
+                <li>Caneta</li>
+                <li>Papel</li>
+                <li>Tesoura</li>
+            </ol> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Cadastrar novo material</legend>
+            <input type="text" placeholder="Nome" required id="Nome"> <br>
+            <input type="text" placeholder="Preco" required id="Preco"> <br>
+            <label for="Quantidade">Quantidade:</label>
+            <input type="number" required id="Quantidade" min="0" max="20"> <br>
+            <label for="Devolucao">Decolução:</label>
+            <input type="radio" id="Sim" name="resposta" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" id="nao" name="resposta" value="Nao">
+            <label for="nao">Nao</label> <br>
+            <input type="reset" style="background-color: rgb(190, 190, 190); color: black;" value="Limpar">
+            <input type="submit" style="background-color: rgb(190, 190, 190); color:black;" value="Cadastrar">
+        </fieldset>
+        <fieldset>
+            <legend>Dados do último material cadastrado</legend>
+            <table border=1;>
+                <tr style="text-align:left;">
+                    <td style="text-align: center;"><b>Nome</b></td>
+                    <td>Lápis</td>
+                </tr>
+                <tr style="text-align: left;">
+                    <td style="text-align: center;"><b>Preço</b></td>
+                    <td>R$12,30</td>
+                </tr>
+                <tr style="text-align:left;">
+                    <td style="text-align: center;"><b>Quantidade</b></td>
+                    <td>200</td>
+                <tr style="text-align:left;">
+                    <td style="text-align: center;"><b>Devolução</b></td>
+                    <td>Sim</td>
+                </tr>
+                </tr>
+            </table>
+        </fieldset> <br>
+    </form>
+</body>
+
+</html>

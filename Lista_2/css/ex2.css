@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+}
+.welcome{
+    display: block;
+}
+.container{
+    display: block;
+}
+.container>div{
+    display: inline;
+}

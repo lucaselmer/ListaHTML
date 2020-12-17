@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <title>Exercício 4</title>
+</head>
+
+<body style="background-color:steelblue; color: white;">
+    <h2><b>Cadastro de estudantes</b></h2> <br>
+    <form>
+        <fieldset>
+            <legend>Dados Escolares</legend>
+            <label for="escolaridade">Escolaridade:</label>
+            <select id="escolaridade" name="escolaridade">
+                <option selected value="1ano">1° Ano</option> <br>
+                <option value="2ano">2° Ano</option> <br>
+                <option value="3ano">3° Ano</option>
+            </select> <br>
+            <input type="checkbox" id="Portugues" name="Portugues" value="Português">
+            <label for="Portugues">Português</label> <br>
+            <input type="checkbox" id="Matematica" name="Matematica" value="Matemática">
+            <label for="Matematica">Matemática</label> <br>
+            <label for="professores">Escolha seu Professor:</label>
+            <input list="professores">
+            <datalist id="professores">
+                <option value="Juliana Martins"></option>
+                <option value="Cláudia"></option>
+                <option value="Gabriel"></option>
+                <option value="Márcio"></option>
+                <option value="Vicente"></option>
+                <option value="André"></option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Descrição</legend>
+            <textarea id="descricao" name="descricao" rows="5" cols="35">Minha descrição</textarea>
+        </fieldset> <br>
+        <input type="reset" style="background-color: rgb(190, 190, 190); color: black;" value="Limpar">
+        <input type="submit" style="background-color: rgb(190, 190, 190); color:black;" value="Cadastrar">
+    </form> <br><br>
+</body>
+
+</html>
