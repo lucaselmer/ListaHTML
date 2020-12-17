@@ -1,0 +1,10 @@
+.container {
+    background-color:  #0a65bb;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin:30px
+}
+.container:first-child{
+    background-color: orangered;
+}

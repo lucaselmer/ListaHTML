@@ -1,0 +1,17 @@
+body{
+    font-size: 40pxpx;
+}
+/* Link que ainda não foi visitado*/
+a:link{
+    color: black;
+    text-decoration: none;
+}
+/* Link já aberto no navegador*/
+a:visited{
+    color: hotpink;
+}
+/* Quando o mouse passa por cima do Link*/
+a:hover{
+    color: green;
+}
+

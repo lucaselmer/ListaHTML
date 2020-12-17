@@ -1,0 +1,11 @@
+body{
+    text-align:center;
+}
+
+table, table td, table th{
+    border: 1px solid gray;
+}
+tr > td:first-child{
+    background-color: #53e;
+    color: white;
+}
